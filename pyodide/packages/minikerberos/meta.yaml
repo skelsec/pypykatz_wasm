@@ -1,0 +1,11 @@
+package:
+  name: minikerberos
+  version: '0.0.11'
+source:
+  url: https://files.pythonhosted.org/packages/ba/bd/8f04644bc1c6d4cf669984ea57fd01e3ff84cf8b5756793a9e9804794c74/minikerberos-0.0.11.tar.gz
+requirements:
+  run:
+    - asn1crypto
+test:
+  imports:
+  - minikerberos

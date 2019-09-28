@@ -1,0 +1,13 @@
+package:
+  name: pypykatz
+  version: '0.2.2'
+source:
+  url: https://files.pythonhosted.org/packages/98/06/92650d9710fb1fc7345d5977fda45c8d0a56c02d599132aaffbceb0b328c/pypykatz-0.2.2.tar.gz
+requirements:
+  run:
+    - minidump
+    - minikerberos
+    - aiowinreg
+test:
+  imports:
+  - pypykatz

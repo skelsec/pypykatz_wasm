@@ -1,0 +1,8 @@
+package:
+  name: minidump
+  version: '0.0.10'
+source:
+  url: https://files.pythonhosted.org/packages/c8/cb/241960cf88ac6dce03ec4e60e4b17a55c5083ed45ddcc2953bfb32e3f0b9/minidump-0.0.10.tar.gz
+test:
+  imports:
+  - minidump

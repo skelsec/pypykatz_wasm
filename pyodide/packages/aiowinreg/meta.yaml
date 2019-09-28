@@ -1,0 +1,8 @@
+package:
+  name: aiowinreg
+  version: '0.0.1'
+source:
+  url: https://files.pythonhosted.org/packages/27/29/d57c971f5ae9cfdddce7b7bdcbba0e1ce15f40c120e6b6dc9783bb481e3d/aiowinreg-0.0.1.tar.gz
+test:
+  imports:
+  - aiowinreg
