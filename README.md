@@ -2,6 +2,10 @@
 The [pypykatz](https://github.com/skelsec/pypykatz) project's LSASS and Registry HIVE parsing capability is now in you web browser!  
 
 # !THE PARSING IS IN YOUR BROWSER, NOT VIA WEB!
+
+# I'm just here for the result
+Slow down morris. The compiled version is in the releases tab. 
+
 # How does it work
 There is an awesome project called [pyodide](https://github.com/iodide-project/pyodide) which aims to have a fully working python3 interpreter running in webassembly.  
 Webassembly in a nutshell allows your c/c++/go/... code to be compiled to a binary file which the JS engine in your browser can execute. Interfacing it via javascript (creeps me out tho)  
