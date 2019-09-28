@@ -6,7 +6,7 @@ The [pypykatz](https://github.com/skelsec/pypykatz) project's LSASS and Registry
 # I'm just here for the result
 Slow down Morris.  
 Files are hosted [here](https://ppk.thu.gg/) by [thugcrowd](https://thugcrowd.com/)  
-The compiled version is in the releases tab. 
+The compiled versions are at [releases](https://github.com/skelsec/pypykatz_wasm/releases) 
 
 # How does it work
 There is an awesome project called [pyodide](https://github.com/iodide-project/pyodide) which aims to have a fully working python3 interpreter running in webassembly.  
