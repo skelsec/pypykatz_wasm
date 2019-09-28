@@ -5,13 +5,13 @@ The [pypykatz](https://github.com/skelsec/pypykatz) project's LSASS and Registry
 
 # I'm just here for the result
 Slow down Morris.  
-Files are hosted on [thugcrowd](https://ppk.thu.gg/) servers.  
+Files are hosted [here](https://ppk.thu.gg/) by [thugcrowd](https://thugcrowd.com/)  
 The compiled version is in the releases tab. 
 
 # How does it work
 There is an awesome project called [pyodide](https://github.com/iodide-project/pyodide) which aims to have a fully working python3 interpreter running in webassembly.  
 Webassembly in a nutshell allows your c/c++/go/... code to be compiled to a binary file which the JS engine in your browser can execute. Interfacing it via javascript (creeps me out tho)  
-The pyodide framework allows additional python packages to be included, so I made some extensions to pypykatz to make it play better with webassemblies interfaces (mostly adding byte-input based parsing) and asked ppl from [thugcrowd]() to design a cool looking webui for it. 
+The pyodide framework allows additional python packages to be included, so I made some extensions to pypykatz to make it play better with webassemblies interfaces (mostly adding byte-input based parsing) and asked ppl from [thugcrowd](https://thugcrowd.com/) to design a cool looking webui for it. 
 When opening the page the JS kicks in and loads python which includes all necessary modules to run pypykatz. Then you'll need to point it to the files you wish to parse. This will make the browser to read the file, store it in a JS variable, which will get passed to the python engine and then pypykatz. Easy. Pypykatz will then parse the file, store the output JSON in a global variable then switch back to the JS engine in your browser which will render the results from said variable.
 
 # I don't trust you
